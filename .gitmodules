@@ -1,0 +1,12 @@
+[submodule "chef/java"]
+	path = chef/java
+	url = git://github.com/likely/java.git
+[submodule "chef/leiningen"]
+	path = chef/leiningen
+	url = git://github.com/likely/leiningen.git
+[submodule "chef/hbase"]
+	path = chef/hbase
+	url = git://github.com/likely/hbase.git
+[submodule "chef/hadoop"]
+	path = chef/hadoop
+	url = git://github.com/likely/hadoop.git
