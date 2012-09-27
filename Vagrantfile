@@ -9,7 +9,14 @@ Vagrant::Config.run do |config|
 
   config.vm.provision :chef_solo do |chef|
     chef.cookbooks_path = "chef"
-    chef.add_recipe "hbase"
+    chef.add_recipe "okapi"
     chef.add_recipe "leiningen"
   end
+
+  config.vm.forward_port 50030, 50030
+  config.vm.forward_port 50060, 50060
+  config.vm.forward_port 50070, 50070
+  config.vm.forward_port 50075, 50075
+  config.vm.forward_port 50090, 50090
+  config.vm.forward_port 50105, 50105
 end
