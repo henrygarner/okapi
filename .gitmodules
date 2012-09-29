@@ -1,12 +1,21 @@
-[submodule "chef/java"]
-	path = chef/java
-	url = git://github.com/likely/java.git
-[submodule "chef/leiningen"]
-	path = chef/leiningen
-	url = git://github.com/likely/leiningen.git
-[submodule "chef/hbase"]
-	path = chef/hbase
-	url = git://github.com/likely/hbase.git
+[submodule "chef/maven"]
+	path = chef/maven
+	url = git://github.com/opscode-cookbooks/maven.git
 [submodule "chef/hadoop"]
 	path = chef/hadoop
 	url = git://github.com/likely/hadoop.git
+[submodule "chef/hbase"]
+	path = chef/hbase
+	url = git://github.com/likely/hbase.git
+[submodule "chef/java"]
+	path = chef/java
+	url = git://github.com/opscode-cookbooks/java.git
+[submodule "chef/leiningen"]
+	path = chef/leiningen
+	url = git://github.com/likely/leiningen.git
+[submodule "chef/ark"]
+	path = chef/ark
+	url = git://github.com/opscode-cookbooks/ark.git
+[submodule "chef/git"]
+	path = chef/git
+	url = git://github.com/opscode-cookbooks/git.git

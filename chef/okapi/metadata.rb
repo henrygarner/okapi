@@ -1,0 +1,6 @@
+depends "git"
+depends "java"
+depends "ark"
+depends "hadoop"
+depends "hbase"
+depends "maven"
