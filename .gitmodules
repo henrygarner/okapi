@@ -13,3 +13,9 @@
 [submodule "chef/git"]
 	path = chef/git
 	url = git://github.com/opscode-cookbooks/git.git
+[submodule "chef/ark"]
+	path = chef/ark
+	url = git://github.com/opscode-cookbooks/ark.git
+[submodule "chef/maven"]
+	path = chef/maven
+	url = git://github.com/opscode-cookbooks/maven.git
