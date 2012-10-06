@@ -4,18 +4,9 @@
 [submodule "chef/hbase"]
 	path = chef/hbase
 	url = git://github.com/likely/hbase.git
-[submodule "chef/java"]
-	path = chef/java
-	url = git://github.com/likely/java.git
 [submodule "chef/leiningen"]
 	path = chef/leiningen
 	url = git://github.com/likely/leiningen.git
-[submodule "chef/git"]
-	path = chef/git
-	url = git://github.com/opscode-cookbooks/git.git
-[submodule "chef/ark"]
-	path = chef/ark
-	url = git://github.com/opscode-cookbooks/ark.git
-[submodule "chef/maven"]
-	path = chef/maven
-	url = git://github.com/opscode-cookbooks/maven.git
+[submodule "checkouts/giraph"]
+	path = checkouts/giraph
+	url = git://git.apache.org/giraph.git
