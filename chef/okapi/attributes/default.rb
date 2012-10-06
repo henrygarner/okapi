@@ -1,0 +1,1 @@
+default[:okapi][:giraph][:config] = {}
